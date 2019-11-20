@@ -1,0 +1,9 @@
+https://do-study.tistory.com/68
+빌드 시 개행문자 관련 경고가 발생했다.
+.eslintrc.js 파일의 rules에 'linebreak-style'을 0으로 하는 설정을 추가하는 것으로 해결했다.
+
+
+각 vue 파일 내에서 이하 구문 앞에
+/* eslint-disable */ <==로 자질구레한 eslint 문법오류 무시
+<script>
+</script>
